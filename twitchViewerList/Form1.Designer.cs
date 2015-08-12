@@ -46,7 +46,6 @@
             // 
             // timer1
             // 
-            this.timer1.Enabled = true;
             this.timer1.Interval = 15000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
@@ -119,13 +118,13 @@
             // viewerIconsToolStripMenuItem
             // 
             this.viewerIconsToolStripMenuItem.Name = "viewerIconsToolStripMenuItem";
-            this.viewerIconsToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.viewerIconsToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.viewerIconsToolStripMenuItem.Text = "@ - Moderators";
             // 
             // sStaffToolStripMenuItem
             // 
             this.sStaffToolStripMenuItem.Name = "sStaffToolStripMenuItem";
-            this.sStaffToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.sStaffToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.sStaffToolStripMenuItem.Text = "S_ - Staff";
             // 
             // aAdminToolStripMenuItem

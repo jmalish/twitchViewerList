@@ -35,7 +35,7 @@ namespace WindowsFormsApplication1
         private void Form1_Load(object sender, EventArgs e)
         {
             // if channel is not set, prompt user for new channel
-            if (settings.channelName == null)
+            if ((settings.channelName == null || settings.channelName == ""))
             {
                 changeChannel();
             }
@@ -104,11 +104,13 @@ namespace WindowsFormsApplication1
                 {
                     lstViewerList.Items.Add(v);
                 }
+
+                timer1.Enabled = true;
             }
             catch (Exception e)
             {
                 MessageBox.Show(e.Message.ToString() +
-                    "\nStopping program. Use the menu strip on the main window to change channel name.");
+                    "\nStopping program.\nUse the menu strip on the main window to change channel name.");
 
                 timer1.Enabled = false;
             }
