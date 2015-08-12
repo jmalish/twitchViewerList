@@ -5,4 +5,4 @@ Allows you to see how many viewers you have, and what users are in your chat.
 
 
 # Installation
-To install, download [the zip file](https://github.com/jmalish/twitchViewerList/blob/master/Twitch%20Viewer%20List.zip), extract it, and run setup.exe.
+To install, download [the zip file](https://github.com/jmalish/twitchViewerList/blob/master/Twitch%20Viewer%20List.zip?raw=true), extract it, and run setup.exe.
